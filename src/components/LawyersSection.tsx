@@ -11,7 +11,7 @@ const lawyers = [
   {
     name: "Dr. Lucas Araújo",
     oab: "OAB/CE 50.727",
-    description: "Profissional especializado em Direito Tributário, Penal e Contencioso. Atuação moderna, estratégica e focada em soluções eficazes para demandas de alta exigência.",
+    description: "Profissional especializado em Direito Imobiliário, Penal e Contencioso. Atuação moderna, estratégica e focada em soluções eficazes para demandas de alta exigência.",
     image: drLucas
   }
 ];
