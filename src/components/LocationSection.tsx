@@ -47,7 +47,7 @@ const LocationSection = () => {
               </div>
               <div>
                 <h3 className="text-lg font-heading font-semibold text-gold-light mb-2">Contato</h3>
-                <p className="text-foreground/85">(85) 99999-9999</p>
+                <p className="text-foreground/85">(85) 98919-8911 ou (85) 98557-5314</p>
               </div>
             </div>
 
@@ -57,7 +57,7 @@ const LocationSection = () => {
               </div>
               <div>
                 <h3 className="text-lg font-heading font-semibold text-gold-light mb-2">E-mail</h3>
-                <p className="text-foreground/85">contato@arrudaaraujo.adv.br</p>
+                <p className="text-foreground/85">arrudaaraujocj@gmail.com</p>
               </div>
             </div>
           </div>

@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Social Icons */}
           <div className="flex gap-4 mb-8">
             <a 
-              href="https://wa.me/5585999999999" 
+              href="https://wa.me/5585989198911" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full border border-gold-light/30 flex items-center justify-center text-gold-light hover:bg-gold-light/10 hover:border-gold-light transition-all duration-300"
@@ -25,7 +25,7 @@ const Footer = () => {
               <MessageCircle className="w-5 h-5" />
             </a>
             <a 
-              href="https://instagram.com/arrudaaraujo" 
+              href="https://www.instagram.com/cristianoqueirozarruda/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full border border-gold-light/30 flex items-center justify-center text-gold-light hover:bg-gold-light/10 hover:border-gold-light transition-all duration-300"
@@ -34,14 +34,14 @@ const Footer = () => {
               <Instagram className="w-5 h-5" />
             </a>
             <a 
-              href="mailto:contato@arrudaaraujo.adv.br"
+              href="mailto:arrudaaraujocj@gmail.com"
               className="w-10 h-10 rounded-full border border-gold-light/30 flex items-center justify-center text-gold-light hover:bg-gold-light/10 hover:border-gold-light transition-all duration-300"
               aria-label="E-mail"
             >
               <Mail className="w-5 h-5" />
             </a>
             <a 
-              href="tel:+5585999999999"
+              href="tel:+5585989198911"
               className="w-10 h-10 rounded-full border border-gold-light/30 flex items-center justify-center text-gold-light hover:bg-gold-light/10 hover:border-gold-light transition-all duration-300"
               aria-label="Telefone"
             >

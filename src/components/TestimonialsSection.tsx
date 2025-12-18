@@ -8,7 +8,7 @@ const testimonials = [
   },
   {
     text: "Escritório sério, transparente e eficiente. Recomendo amplamente.",
-    author: "Cliente Tributário"
+    author: "Cliente Imobiliário"
   },
   {
     text: "Atendimento excepcional desde o primeiro contato. Resolveram minha situação com competência.",

@@ -1,5 +1,5 @@
-import drCristiano from "@/assets/dr-cristiano-arruda.JPG";
-import drLucas from "@/assets/dr-Lucas.JPG";
+import drCristiano from "@/assets/dr-cristiano-arruda.jpeg";
+import drLucas from "@/assets/dr-Lucas.jpeg";
 
 const lawyers = [
   {

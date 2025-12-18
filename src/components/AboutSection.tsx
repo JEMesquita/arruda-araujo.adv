@@ -13,10 +13,13 @@ const AboutSection = () => {
 
           {/* Content */}
           <p className="text-base md:text-lg text-foreground/85 leading-relaxed mb-6">
-            O escritório <span className="gold-gradient-text font-medium">Arruda & Araújo Consultoria Jurídica</span> reúne 
-            experiência, compromisso e atuação estratégica em diversas frentes do Direito. São mais de 20 anos de 
-            atividade no Ceará, com vitórias expressivas em diferentes varas e tribunais, representando clientes 
-            em causas de alta complexidade.
+             Nosso escritório <span className="gold-gradient-text font-medium">Arruda & Araújo Consultoria Jurídica</span> atua com excelência e comprometimento nas 
+             áreas Criminal, Cível, Previdenciária e Imobiliário, oferecendo soluções jurídicas seguras, estratégicas e personalizadas. Trabalhamos com foco na defesa
+             dos direitos e garantias fundamentais de nossos clientes, sempre pautados pela ética, transparência e responsabilidade profissional.
+
+            Com uma atuação técnica sólida e atualização constante, buscamos compreender cada caso de forma individualizada, adotando estratégias jurídicas 
+            eficazes e humanas. Nosso compromisso é prestar um atendimento próximo, claro e responsável, assegurando confiança e segurança em todas as etapas
+            do processo.
           </p>
 
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed">

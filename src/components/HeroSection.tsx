@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import logo from "@/assets/logo.png";
-import heroBg from "@/assets/hero-bg.jpg";
-import captura01 from "@/assets/captura-01.JPG";
-import captura02 from "@/assets/captura-02.JPG";
-import captura03 from "@/assets/Captura-03.JPG";
-import captura05 from "@/assets/Captura-05.JPG";
+import heroBg from "@/assets/hero-bg.jpeg";
+import captura01 from "@/assets/captura-01.jpeg";
+import captura02 from "@/assets/captura-02.jpeg";
+import captura03 from "@/assets/Captura-03.jpeg";
+import captura05 from "@/assets/Captura-05.jpeg";
 import { Button } from "@/components/ui/button";
 import { Calendar, MessageCircle } from "lucide-react";
 
