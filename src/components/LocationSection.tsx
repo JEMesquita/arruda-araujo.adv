@@ -47,7 +47,7 @@ const LocationSection = () => {
               </div>
               <div>
                 <h3 className="text-lg font-heading font-semibold text-gold-light mb-2">Contato</h3>
-                <p className="text-foreground/85">(85) 98919-8911 e (85) 98557-5314</p>
+                <p className="text-foreground/85">(85) 99999-9999</p>
               </div>
             </div>
 

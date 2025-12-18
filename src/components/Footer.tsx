@@ -41,7 +41,7 @@ const Footer = () => {
               <Mail className="w-5 h-5" />
             </a>
             <a 
-              href="tel:+5585989198911"
+              href="tel:+5585999999999"
               className="w-10 h-10 rounded-full border border-gold-light/30 flex items-center justify-center text-gold-light hover:bg-gold-light/10 hover:border-gold-light transition-all duration-300"
               aria-label="Telefone"
             >

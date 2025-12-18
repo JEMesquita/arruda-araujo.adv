@@ -8,23 +8,18 @@ const practiceAreas = [
   },
   {
     icon: FileText,
-    title: "Direito Cível",
-    description: "Resolução de conflitos privados, proteção de direitos da personalidade, responsabilidade civil, contratos e obrigações, propriedade e posse, família e sucessões, tutela de direitos individuais, relações entre particulares, interpretação de cláusulas contratuais, reparação de danos morais e materiaisContratos, indenizações, responsabilidade civil, disputas patrimoniais, imobiliário, família e sucessões."
+    title: "Direito Civil",
+    description: "Contratos, indenizações, responsabilidade civil, disputas patrimoniais, imobiliário, família e sucessões."
   },
   {
     icon: Briefcase,
-    title: "Direito Previdenciário",
-    description: "Concessão e revisão de benefícios previdenciários, aposentadorias por idade, tempo de contribuição ou invalidez, auxílio-doença, auxílio-acidente, salário-maternidade, pensão por morte, benefício de prestação continuada (BPC/LOAS), carência e tempo de contribuição, análise de vínculos empregatícios para fins previdenciários, defesa administrativa e judicial na esfera previdenciária."  
+    title: "Direito Tributário",
+    description: "Defesas fiscais, execuções, planejamento tributário, auditoria jurídica e contencioso administrativo."
   },
   {
     icon: Shield,
     title: "Direito Militar",
-    description: "Regulamentação das relações jurídicas no âmbito da Justiça Militar, regime disciplinar militar, crimes militares e justiça castrense, direitos e deveres dos militares, estabilidade e hierarquia na carreira militar, regime jurídico único dos militares, processos administrativos disciplinares, pensões e benefícios militares, incorporação, promoção e licenciamento de militares, aplicação do Estatuto dos Militares e do Código Penal Militar."
-  },
-  {
-    icon: Shield,
-    title: "Imobiliário",
-    description: "Compra e venda de imóveis, registro de imóveis, usucapião, locação residencial e comercial, doação de bens imóveis, constituição e regulamentação de condomínios, alienação fiduciária, hipoteca e outras garantias reais, regularização fundiária, incorporação imobiliária, direito de laje, divisão e desmembramento de terrenos, IPTU e tributação imobiliária, rescisão de contratos imobiliários, proteção ao inquilino e ao proprietário, mediação e responsabilidade civil em transações imobiliárias."
+    description: "Defesa de militares estaduais, processos administrativos disciplinares, IPM, sindicâncias, garantias e prerrogativas."
   }
 ];
 

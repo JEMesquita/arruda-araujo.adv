@@ -95,11 +95,10 @@ const ContactSection = () => {
                 >
                   <option value="">Selecione...</option>
                   <option value="criminal">Direito Criminal</option>
-                  <option value="civil">Direito Cível</option>
-                  <option value="previdenciario">Direito Previdenciário</option>
+                  <option value="civil">Direito Civil</option>
+                  <option value="tributario">Direito Tributário</option>
                   <option value="militar">Direito Militar</option>
-                  <option value="militar">Direito Militar</option>
-                
+                  <option value="outro">Outro</option>
                 </select>
               </div>
             </div>
