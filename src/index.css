@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 45 35% 90%;
+
+    --card: 0 0% 5%;
+    --card-foreground: 45 35% 90%;
+
+    --popover: 0 0% 5%;
+    --popover-foreground: 45 35% 90%;
+
+    --primary: 40 52% 58%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 0 0% 8%;
+    --secondary-foreground: 45 35% 90%;
+
+    --muted: 0 0% 12%;
+    --muted-foreground: 45 10% 60%;
+
+    --accent: 40 52% 45%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 40 30% 20%;
+    --input: 40 30% 15%;
+    --ring: 40 52% 58%;
+
+    --radius: 0.375rem;
+
+    /* Custom gold gradient colors */
+    --gold-light: 48 65% 77%;
+    --gold-dark: 30 52% 44%;
+    
+    /* Shadows */
+    --gold-glow: 0 0 30px hsl(40 52% 58% / 0.4);
+    --gold-glow-intense: 0 0 50px hsl(40 52% 58% / 0.6);
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 45 35% 90%;
+    --card: 0 0% 5%;
+    --card-foreground: 45 35% 90%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 45 35% 90%;
+    --primary: 40 52% 58%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 0 0% 8%;
+    --secondary-foreground: 45 35% 90%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 45 10% 60%;
+    --accent: 40 52% 45%;
+    --accent-foreground: 0 0% 0%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 40 30% 20%;
+    --input: 40 30% 15%;
+    --ring: 40 52% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .gold-gradient-text {
+    @apply bg-gradient-to-r from-gold-light to-gold-dark bg-clip-text text-transparent;
+  }
+
+  .gold-gradient-bg {
+    @apply bg-gradient-to-r from-gold-light to-gold-dark;
+  }
+
+  .gold-border {
+    @apply border border-gold-light/30;
+  }
+
+  .section-padding {
+    @apply py-20 md:py-32 px-4 md:px-8;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-fade-up {
+    animation: fadeUp 0.8s ease-out forwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-glow {
+    animation: goldGlow 2s ease-in-out infinite;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out forwards;
+  }
+
+  .delay-100 { animation-delay: 0.1s; }
+  .delay-200 { animation-delay: 0.2s; }
+  .delay-300 { animation-delay: 0.3s; }
+  .delay-400 { animation-delay: 0.4s; }
+  .delay-500 { animation-delay: 0.5s; }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes goldGlow {
+  0%, 100% {
+    box-shadow: 0 0 20px hsl(40 52% 58% / 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px hsl(40 52% 58% / 0.5);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
