@@ -40,6 +40,12 @@ This is a luxury law firm website built with React, TypeScript, Vite, and shadcn
 - **Staggered entrance animations**: Components use `animate-fade-up` with `delay-{100-500}` classes
 - Initial state: `opacity-0` on elements with animation classes
 - Custom keyframes: `fadeUp`, `fadeIn`, `goldGlow`, `slideUp` (see `src/index.css` @keyframes)
+- **Available animation utilities**:
+  - `.animate-fade-up`: Fades in while sliding up 30px
+  - `.animate-fade-in`: Simple fade-in effect
+  - `.animate-glow`: Pulsing gold glow effect (infinite loop)
+  - `.animate-slide-up`: Quick slide-up animation
+  - Delay classes: `.delay-100` through `.delay-500` (100ms increments)
 
 ### Button Variants
 When using `Button` component, prefer custom law firm variants:
@@ -49,9 +55,11 @@ When using `Button` component, prefer custom law firm variants:
 ## Development Workflow
 
 ### Commands
-- **Dev server**: `npm run dev` (runs on `http://[::]:8080`)
+- **Dev server**: `npm run dev` (runs on `http://[::]:8080` with Vite + SWC hot reload)
 - **Build**: `npm run build` (production) or `npm run build:dev` (development mode)
-- **Lint**: `npm run lint` (ESLint with flat config)
+- **Preview**: `npm run preview` (preview production build locally)
+- **Lint**: `npm run lint` (ESLint flat config with TypeScript parser)
+- **Package manager**: Use `npm` (standard commands) - bun.lockb exists but npm is the primary package manager
 
 ### Path Aliases
 All imports use `@/` alias pointing to `src/`:
