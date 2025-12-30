@@ -15,7 +15,6 @@ const lawyers = [
     image: drLucas
   }
 ];
-
 const LawyersSection = () => {
   return (
     <section id="advogados" className="section-padding bg-secondary/30">
@@ -42,22 +41,18 @@ const LawyersSection = () => {
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                 />
               </div>
-
               {/* Name */}
               <h3 className="text-xl md:text-2xl font-heading font-semibold gold-gradient-text mb-2">
                 {lawyer.name}
               </h3>
-
               {/* OAB */}
               <p className="text-sm text-gold-light/80 font-medium mb-4">
                 {lawyer.oab}
               </p>
-
               {/* Description */}
               <p className="text-muted-foreground leading-relaxed">
                 {lawyer.description}
               </p>
-
               {/* Decorative corner */}
               <div className="absolute top-0 left-0 w-16 h-16 border-l-2 border-t-2 border-gold-light/20 rounded-tl-lg" />
               <div className="absolute bottom-0 right-0 w-16 h-16 border-r-2 border-b-2 border-gold-light/20 rounded-br-lg" />

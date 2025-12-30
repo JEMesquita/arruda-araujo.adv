@@ -51,17 +51,14 @@ const PracticeAreasSection = () => {
               <div className="w-14 h-14 mb-6 rounded-lg gold-gradient-bg flex items-center justify-center group-hover:animate-glow transition-all duration-300">
                 <area.icon className="w-7 h-7 text-background" />
               </div>
-
               {/* Title */}
               <h3 className="text-xl md:text-2xl font-heading font-semibold text-gold-light mb-4">
                 {area.title}
               </h3>
-
               {/* Description */}
               <p className="text-muted-foreground leading-relaxed">
                 {area.description}
               </p>
-
               {/* Hover gradient border effect */}
               <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-gold-light/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
             </div>

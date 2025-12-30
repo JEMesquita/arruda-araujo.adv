@@ -23,7 +23,7 @@ const Footer = () => {
               <MessageCircle className="w-5 h-5" />
             </a>
             <a 
-              href="https://www.instagram.com/cristianoqueirozarruda/" 
+              href="https://www.instagram.com/juridico.arrudaearaujo/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full border border-gold-light/30 flex items-center justify-center text-gold-light hover:bg-gold-light/10 hover:border-gold-light transition-all duration-300"
@@ -46,7 +46,6 @@ const Footer = () => {
               <Phone className="w-5 h-5" />
             </a>
           </div>
-
           {/* Copyright */}
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Arruda & Araújo Consultoria Jurídica · Todos os direitos reservados

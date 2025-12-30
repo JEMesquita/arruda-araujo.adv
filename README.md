@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-npm # Welcome to your Lovable project
-=======
 # Bem-vindo ao seu projeto
 
 ## Informações do projeto
@@ -56,3 +53,5 @@ Este projeto foi construído com:
 - React  
 - shadcn-ui  
 - Tailwind CSS  
+
+## Arruda & Araújo Consultoria Jurídica · Todos os direitos reservados

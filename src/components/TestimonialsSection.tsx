@@ -3,8 +3,16 @@ import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
   {
+    text: "Duas trajetórias que somam força, conhecimento e humanidade à nossa advocacia.",
+    author: "@juridico.arrudaearaujo"
+  },
+  {
+    text: "É sobre competência, ética e presença! Parabéns, Dr. Cristiano e Dr. Lucas!",
+    author: "Cliente atendido."
+  },
+  {
     text: "Profissionais extremamente dedicados. Obtive resultado rápido e tratamento humano.",
-    author: "Cliente atendido na área Penal"
+    author: "Cliente atendido presencialmente"
   },
   {
     text: "Escritório sério, transparente e eficiente. Recomendo amplamente.",
@@ -44,12 +52,10 @@ const TestimonialsSection = () => {
           </h2>
           <div className="w-24 h-0.5 gold-gradient-bg mx-auto" />
         </div>
-
         {/* Testimonial Slider */}
         <div className="relative max-w-3xl mx-auto">
           {/* Quote Icon */}
           <Quote className="w-12 h-12 text-gold-light/30 mx-auto mb-6" />
-
           {/* Testimonial Content */}
           <div className="min-h-[150px] flex items-center justify-center">
             <div className="text-center animate-fade-in" key={current}>
@@ -94,7 +100,6 @@ const TestimonialsSection = () => {
           </div>
           {/* Decorative line */}
           <div className="w-24 h-0.5 gold-gradient-bg mx-auto mt-10" />
-          </div>
         </div>
       </div>
     </section>

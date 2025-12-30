@@ -46,6 +46,15 @@ const StructureSection = () => {
               <div className="w-12 h-12 shrink-0 rounded-lg gold-gradient-bg flex items-center justify-center">
                 <Users className="w-6 h-6 text-background" />
               </div>
+              <div className="flex items-start gap-4 p-6 bg-card border border-border/50 rounded-lg group hover:border-gold-light/30 transition-all duration-300">
+              <div className="w-12 h-12 shrink-0 rounded-lg gold-gradient-bg flex items-center justify-center">
+                <Award className="w-6 h-6 text-background" />
+              </div>
+              <div>
+                <h3 className="text-lg font-heading font-semibold text-gold-light mb-2">Confiabilidade</h3>
+                <p className="text-sm text-muted-foreground">Cumprimos o que prometemos, agimos com integridade e mantemos consistência entre palavras e atitudes. É um pilar essencial em relações pessoais, profissionais e sociais. Sem confiabilidade, dificilmente se constrói respeito duradouro..</p>
+              </div>
+            </div>
               <div>
                 <h3 className="text-lg font-heading font-semibold text-gold-light mb-2">Atendimento Humanizado</h3>
                 <p className="text-sm text-muted-foreground">Cada cliente é único. Oferecemos atenção personalizada e sigilo absoluto.</p>

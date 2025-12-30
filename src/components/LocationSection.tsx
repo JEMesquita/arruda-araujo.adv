@@ -7,7 +7,7 @@ const LocationSection = () => {
         {/* Section Title */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-semibold gold-gradient-text mb-4">
-            Estamos preparados para atender você
+            Estamos preparados para atender você.
           </h2>
           <div className="w-24 h-0.5 gold-gradient-bg mx-auto" />
         </div>
@@ -47,7 +47,6 @@ const LocationSection = () => {
                 <p className="text-foreground/85">(85) 98919-8911 ou (85) 98557-5314</p>
               </div>
             </div>
-
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 shrink-0 rounded-lg gold-gradient-bg flex items-center justify-center">
                 <Mail className="w-6 h-6 text-background" />
@@ -58,7 +57,6 @@ const LocationSection = () => {
               </div>
             </div>
           </div>
-
           {/* Map placeholder */}
           <div className="h-80 lg:h-auto min-h-[300px] bg-card border border-border/50 rounded-lg overflow-hidden">
             <iframe
