@@ -1,5 +1,5 @@
 import logo from "@/assets/logo.png";
-import { Instagram, Phone, Mail, MessageCircle, ArrowUp } from "lucide-react";
+import { Instagram, Phone, Mail, MessageCircle, ChevronsUp } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const Footer = () => {
@@ -65,17 +65,22 @@ const Footer = () => {
             >
               <Phone className="w-5 h-5" />
             </a>
-            {/* Back to Top Button */}
-            {isVisible && (
+          </div>
+          
+          {/* Back to Top Button - Centered */}
+          {isVisible && (
+            <div className="mb-8">
               <button
                 onClick={scrollToTop}
-                className="w-10 h-10 rounded-full border border-gold-light/30 flex items-center justify-center text-gold-light hover:bg-gold-light/10 hover:border-gold-light transition-all duration-300 animate-fade-in"
+                className="flex flex-col items-center justify-center gap-1 text-gold-light hover:text-gold-dark transition-all duration-300 group animate-fade-in"
                 aria-label="Voltar ao topo"
               >
-                <ArrowUp className="w-5 h-5" />
+                <ChevronsUp className="w-8 h-8 animate-bounce" />
+                <span className="text-xs font-body uppercase tracking-wider">Voltar ao topo</span>
               </button>
-            )}
-          </div>
+            </div>
+          )}
+          
           {/* Copyright */}
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Arruda & Araújo Consultoria Jurídica · Todos os direitos reservados

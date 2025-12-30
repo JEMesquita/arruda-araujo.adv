@@ -2,13 +2,13 @@
 
 ## Informações do projeto
 
-**URL**: https://arrudaaraujo.adv.br
+**URL**: <https://arrudaaraujo.adv.br>
 
 ## Como posso editar este código?
 
 Existem várias formas de editar sua aplicação.
 
-**Use sua IDE preferida**
+### Use sua IDE preferida
 
 Se você quiser trabalhar localmente com sua própria IDE, pode clonar este repositório e fazer push das alterações. As mudanças enviadas também serão refletidas no Lovable.
 
@@ -30,13 +30,13 @@ npm i
 npm run dev
 ```
 
-**Edite um arquivo diretamente no GitHub**
+### Edite um arquivo diretamente no GitHub
 
 - Navegue até o(s) arquivo(s) desejado(s).
 - Clique no botão "Editar" (ícone de lápis) no canto superior direito da visualização do arquivo.
 - Faça suas alterações e confirme o commit das mudanças.
 
-**Use o GitHub Codespaces**
+### Use o GitHub Codespaces
 
 - Vá até a página principal do seu repositório.
 - Clique no botão "Code" (botão verde) próximo ao canto superior direito.
