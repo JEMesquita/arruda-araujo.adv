@@ -1,7 +1,27 @@
 import logo from "@/assets/logo.png";
-import { Instagram, Phone, Mail, MessageCircle } from "lucide-react";
+import { Instagram, Phone, Mail, MessageCircle, ArrowUp } from "lucide-react";
+import { useState, useEffect } from "react";
 
 const Footer = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.scrollY > 300) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", toggleVisibility);
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
   return (
     <footer className="py-12 bg-card border-t border-border/30">
       <div className="container-custom">
@@ -45,6 +65,16 @@ const Footer = () => {
             >
               <Phone className="w-5 h-5" />
             </a>
+            {/* Back to Top Button */}
+            {isVisible && (
+              <button
+                onClick={scrollToTop}
+                className="w-10 h-10 rounded-full border border-gold-light/30 flex items-center justify-center text-gold-light hover:bg-gold-light/10 hover:border-gold-light transition-all duration-300 animate-fade-in"
+                aria-label="Voltar ao topo"
+              >
+                <ArrowUp className="w-5 h-5" />
+              </button>
+            )}
           </div>
           {/* Copyright */}
           <p className="text-sm text-muted-foreground">

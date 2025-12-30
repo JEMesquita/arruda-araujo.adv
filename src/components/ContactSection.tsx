@@ -93,11 +93,12 @@ const ContactSection = () => {
                   required
                   className="w-full px-4 py-3 bg-card border border-border/50 rounded-md text-foreground focus:outline-none focus:border-gold-light/50 transition-colors">
                   <option value="">Selecione...</option>
-                  <option value="criminal">Direito Criminal</option>
+                  <option value="bpc-loas">BPC/LOAS</option>
                   <option value="civel">Direito Cível</option>
-                  <option value="previdenciario">Direito Previdenciário</option>
+                  <option value="criminal">Direito Criminal</option>
                   <option value="imobiliario">Direito Imobiliário</option>
                   <option value="militar">Direito Militar</option>
+                  <option value="previdenciario">Direito Previdenciário</option>
                   <option value="outros">Outros</option>
                   
                 </select>
