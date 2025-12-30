@@ -70,12 +70,13 @@ const AboutSection = () => {
             eficazes e humanas. Nosso compromisso é prestar um atendimento próximo, claro e responsável, assegurando confiança e segurança em todas as etapas
             do processo.
           </p>
-
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
             Atendemos Fortaleza, Região Metropolitana e Interior do Estado, sempre com humanidade, precisão 
             técnica e respeito às prerrogativas da advocacia.
           </p>
-        </div>
+          {/* Decorative line */}
+          <div className="w-24 h-0.5 gold-gradient-bg mx-auto mb-10" />
+          </div>
       </div>
     </section>
   );

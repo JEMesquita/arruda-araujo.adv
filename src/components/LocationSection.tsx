@@ -11,7 +11,6 @@ const LocationSection = () => {
           </h2>
           <div className="w-24 h-0.5 gold-gradient-bg mx-auto" />
         </div>
-
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Address Info */}
           <div className="space-y-8">
@@ -26,7 +25,6 @@ const LocationSection = () => {
                 <p className="text-muted-foreground">CEP: 62.870-000</p>
               </div>
             </div>
-
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 shrink-0 rounded-lg gold-gradient-bg flex items-center justify-center">
                 <Clock className="w-6 h-6 text-background" />
@@ -40,7 +38,6 @@ const LocationSection = () => {
                 </ul>
               </div>
             </div>
-
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 shrink-0 rounded-lg gold-gradient-bg flex items-center justify-center">
                 <Phone className="w-6 h-6 text-background" />

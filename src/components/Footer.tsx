@@ -12,7 +12,6 @@ const Footer = () => {
             alt="Arruda & Araújo Consultoria Jurídica" 
             className="w-32 md:w-40 mb-6"
           />
-
           {/* Social Icons */}
           <div className="flex gap-4 mb-8">
             <a 
@@ -20,8 +19,7 @@ const Footer = () => {
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full border border-gold-light/30 flex items-center justify-center text-gold-light hover:bg-gold-light/10 hover:border-gold-light transition-all duration-300"
-              aria-label="WhatsApp"
-            >
+              aria-label="WhatsApp">
               <MessageCircle className="w-5 h-5" />
             </a>
             <a 

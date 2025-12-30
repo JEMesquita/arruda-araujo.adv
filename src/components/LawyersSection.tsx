@@ -27,7 +27,6 @@ const LawyersSection = () => {
           </h2>
           <div className="w-24 h-0.5 gold-gradient-bg mx-auto" />
         </div>
-
         {/* Lawyers Grid */}
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {lawyers.map((lawyer) => (

@@ -39,7 +39,6 @@ const PracticeAreasSection = () => {
           </h2>
           <div className="w-24 h-0.5 gold-gradient-bg mx-auto" />
         </div>
-
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           {practiceAreas.map((area, index) => (

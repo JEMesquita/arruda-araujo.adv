@@ -77,7 +77,6 @@ const TestimonialsSection = () => {
           >
             <ChevronRight className="w-5 h-5" />
           </button>
-
           {/* Dots */}
           <div className="flex justify-center gap-2 mt-8">
             {testimonials.map((_, index) => (
@@ -92,6 +91,9 @@ const TestimonialsSection = () => {
                 aria-label={`Ir para depoimento ${index + 1}`}
               />
             ))}
+          </div>
+          {/* Decorative line */}
+          <div className="w-24 h-0.5 gold-gradient-bg mx-auto mt-10" />
           </div>
         </div>
       </div>
