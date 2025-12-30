@@ -1,4 +1,5 @@
-import { Scale, FileText, Briefcase, Shield } from "lucide-react";
+import { Scale, FileText, Briefcase, Shield, Instagram } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const practiceAreas = [
   {
@@ -43,6 +44,21 @@ const PracticeAreasSection = () => {
             Soluções Jurídicas Especializadas
           </h2>
           <div className="w-24 h-0.5 gold-gradient-bg mx-auto mb-10" />
+
+          {/* Instagram Reel CTA */}
+          <div className="mt-6 animate-fade-up">
+            <a
+              href="https://www.instagram.com/reel/DNBUKsXux6-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
+              <Button variant="goldOutline" size="lg" className="group">
+                <Instagram className="mr-2 h-5 w-5 group-hover:animate-pulse" />
+                Conheça mais sobre nossas áreas de atuação
+              </Button>
+            </a>
+          </div>
         </div>
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">

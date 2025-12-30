@@ -22,7 +22,7 @@ const AboutSection = () => {
       <div className="container-custom">
         <div className="max-w-4xl mx-auto text-center">
           {/* Image Carousel */}
-          <div className="relative w-full h-64 md:h-80 lg:h-96 mb-12 rounded-lg overflow-hidden shadow-2xl">
+          <div className="relative w-full h-72 md:h-96 lg:h-[32rem] mb-12 rounded-lg overflow-hidden shadow-2xl">
             {carouselImages.map((image, index) => (
               <div
                 key={index}
