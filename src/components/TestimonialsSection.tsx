@@ -50,7 +50,7 @@ const TestimonialsSection = () => {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-semibold gold-gradient-text mb-4">
             Depoimentos
           </h2>
-          <div className="w-24 h-0.5 gold-gradient-bg mx-auto" />
+          <div className="w-24 h-0.5 gold-gradient-bg mx-auto mb-10" />
         </div>
         {/* Testimonial Slider */}
         <div className="relative max-w-3xl mx-auto">
@@ -98,8 +98,6 @@ const TestimonialsSection = () => {
               />
             ))}
           </div>
-          {/* Decorative line */}
-          <div className="w-24 h-0.5 gold-gradient-bg mx-auto mt-10" />
         </div>
       </div>
     </section>

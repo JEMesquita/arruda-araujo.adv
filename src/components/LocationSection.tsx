@@ -9,7 +9,7 @@ const LocationSection = () => {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-semibold gold-gradient-text mb-4">
             Estamos preparados para atender você.
           </h2>
-          <div className="w-24 h-0.5 gold-gradient-bg mx-auto" />
+          <div className="w-24 h-0.5 gold-gradient-bg mx-auto mb-10" />
         </div>
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Address Info */}

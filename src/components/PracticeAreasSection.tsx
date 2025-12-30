@@ -3,13 +3,18 @@ import { Scale, FileText, Briefcase, Shield } from "lucide-react";
 const practiceAreas = [
   {
     icon: Scale,
-    title: "Direito Criminal",
-    description: "Atuação completa em defesa criminal, acompanhamentos de flagrante, júri, habeas corpus, revisões, recursos e casos de grande complexidade."
+    title: "BPC/LOAS",
+    description: "Em nosso escritório, auxiliamos na análise de elegibilidade, requerimento administrativo e, se necessário, na defesa judicial do direito ao BPC/LOAS, sempre com base na legislação vigente e com foco na dignidade do cidadão."
   },
   {
     icon: FileText,
     title: "Direito Cível",
     description: "Resolução de conflitos privados, proteção de direitos da personalidade, responsabilidade civil, contratos e obrigações, propriedade e posse, família e sucessões, tutela de direitos individuais, relações entre particulares, interpretação de cláusulas contratuais, reparação de danos morais e materiais."
+  },
+  {
+    icon: Scale,
+    title: "Direito Criminal",
+    description: "Atuação completa em defesa criminal, acompanhamentos de flagrante, júri, habeas corpus, revisões, recursos e casos de grande complexidade."
   },
   {
     icon: Briefcase,
@@ -37,12 +42,12 @@ const PracticeAreasSection = () => {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-semibold gold-gradient-text mb-4">
             Soluções Jurídicas Especializadas
           </h2>
-          <div className="w-24 h-0.5 gold-gradient-bg mx-auto" />
+          <div className="w-24 h-0.5 gold-gradient-bg mx-auto mb-10" />
         </div>
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           {practiceAreas.map((area, index) => (
-            <div 
+            <div
               key={area.title}
               className="group relative p-8 bg-card border border-border/50 rounded-lg hover:border-gold-light/40 transition-all duration-500 hover:shadow-[0_0_40px_hsl(40_52%_58%_/_0.1)]"
               style={{ animationDelay: `${index * 100}ms` }}
